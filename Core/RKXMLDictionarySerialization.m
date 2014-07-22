@@ -17,7 +17,7 @@
         shared.attributesMode = XMLDictionaryAttributesModePrefixed;
         shared.nodeNameMode = XMLDictionaryNodeNameModeNever;
         shared.wrapRootNode = YES;
-        shared.collapseTextNodes = NO;
+        shared.collapseTextNodes = YES;
 		shared.stripEmptyNodes = NO;
     });
     return shared;
